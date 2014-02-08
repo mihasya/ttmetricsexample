@@ -9,13 +9,11 @@ of concerns.
 
 ## Sample Output
 
-```bash
+```
 # insert a book
 curl -XPUT -H "Content-Type: application/json" -d '{"author":"Pushkin", "title":"Eugene Onegin"}'  localhost:34334/books/1234
 # retrieve teh same book
 curl localhost:34334/books/1234
-```
-```json
 {"Author":"Pushkin","Title":"Eugene Onegin"}
 ```
 
